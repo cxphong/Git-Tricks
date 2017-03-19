@@ -1,0 +1,40 @@
+1. View history
+	- Full information
+		git log
+
+	- Minimize information
+		git log --online --graph --decorate
+
+	- Not full but enough information
+		git log  --graph --pretty=format:"%h%x09%an%x09%ad%x09%s"
+
+	- Only one branch
+		git log --graph --online --decorate <branch name>
+
+	- Only one file
+		git log --follow <file path>
+		git log --follow --oneline <file path>
+
+	- Show what changed in one commit
+		git show <commit hash>
+
+	- Show a list files changed in one commit
+		git show --name-only <commit hash>
+
+	- Show what is changed of one file in one commit
+		git show <commit hash> <file-path>
+
+	- Show all tag
+		git tag
+		git log --tags --simplify-by-decoration --pretty="format:%ci %d"
+
+
+2. Make alias to type less
+		Edit file ~/.gitconfig
+		
+		-----------------------------------------------------------	
+			[alias]
+				tree = log --oneline --decorate --all --graph
+		-----------------------------------------------------------
+
+		Than just type 'git tree'
