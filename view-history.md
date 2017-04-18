@@ -1,5 +1,5 @@
 1. View history
-	- Full information
+	+ Full information
 		git log
 
 	- Minimize information
