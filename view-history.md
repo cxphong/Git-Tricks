@@ -1,5 +1,5 @@
-1. View history
-	+ Full information
+###### View history
+	- Full information
 		git log
 
 	- Minimize information
@@ -29,7 +29,7 @@
 		git log --tags --simplify-by-decoration --pretty="format:%ci %d"
 
 
-2. Make alias to type less
+###### Make alias to type less
 		Edit file ~/.gitconfig
 		
 		-----------------------------------------------------------	
