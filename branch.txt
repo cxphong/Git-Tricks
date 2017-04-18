@@ -1,5 +1,0 @@
-1. Create 1 branch	
-2. Merge branch
-3. Change branch name
-4. Delete branch
-5. Checkout remote branch
