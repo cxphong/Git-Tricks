@@ -2,9 +2,25 @@
 	- Create 1 branch	
 		git branch <branch-name>
 
-		# Move HEAD to new branch
+	- Move HEAD to new branch
 		git checkout <branch-name>
-2. Merge branch
-3. Change branch name
-4. Delete branch
-5. Checkout remote branch
+
+	- Merge branch into
+		git merge <name of branch want to merge into current branch>
+
+	- Change branch name
+		git branch -m old_branch new_branch         # Rename branch locally    
+		git push origin :old_branch                 # Delete the old branch    
+		git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+
+	- Delete branch
+    	# Branch uploaded to remote
+    	git branch -d <branch>
+     	git push origin --delete <branch>
+
+     	# Branch not uploaded to remote yet
+     	git branch -D <branch>
+
+	- Checkout remote branch
+		git fetch
+		git checkout <branch>
