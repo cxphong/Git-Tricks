@@ -9,7 +9,9 @@
 		git merge <name of branch want to merge into current branch>
 
 	- Change branch name
-		git branch -m old_branch new_branch         # Rename branch locally    
+		git branch -m old_branch new_branch         # Rename branch locally  
+
+		# Dot 2 commands below if branch uploaded to remote  
 		git push origin :old_branch                 # Delete the old branch    
 		git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
 
@@ -24,3 +26,6 @@
 	- Checkout remote branch
 		git fetch
 		git checkout <branch>
+
+	- List all branch 
+		git branch -a
