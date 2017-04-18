@@ -1,6 +1,6 @@
 ###### View history
 	- Full information
-		*git log*
+		git log
 
 	- Minimize information
 		git log --online --graph --decorate --all
