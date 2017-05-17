@@ -1,4 +1,4 @@
-###### Clean & Stash
+###### Stash & Clean
 	- Ignore all modified (Becareful it can't undo)
 		git checkout .
 
