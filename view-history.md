@@ -3,13 +3,13 @@
 		git log
 
 	- Minimize information
-		git log --online --graph --decorate --all
+		git log --oneline --graph --decorate --all
 
 	- Not full but enough information
 		git log  --graph --pretty=format:"%h%x09%an%x09%ad%x09%s"
 
 	- One branch
-		git log --graph --online --decorate <branch name>
+		git log --graph --oneline --decorate <branch name>
 
 	- Only one file
 		git log --follow <file path>
