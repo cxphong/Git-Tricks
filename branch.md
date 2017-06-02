@@ -26,6 +26,11 @@
 	- Checkout remote branch
 		git fetch
 		git checkout <branch>
+		
+	- Pull
+		git pull
+		git pull origin master
+		git pull origin master --allow-unrelated-histories
 
 	- List all branch 
 		git branch -a
