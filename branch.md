@@ -26,7 +26,7 @@ git push origin :old_branch                 # Delete the old branch
 git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
 ```
 
-#### Delete branch
+##### Delete branch
 
 ```php
 # Branch uploaded to remote
@@ -36,14 +36,14 @@ git push origin --delete <branch>
 # Branch not uploaded to remote yet
 git branch -D <branch>
 ```
-#### Checkout remote branch
+##### Checkout remote branch
 
 ```php
 git fetch
 git checkout <branch>
 ```
 		
-#### Pull
+##### Pull
 
 ```php
 git pull
@@ -51,7 +51,7 @@ git pull origin master
 git pull origin master --allow-unrelated-histories
 ```
 
-#### List all branch 
+##### List all branch 
 
 ```php
 git branch -a
