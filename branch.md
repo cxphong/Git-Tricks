@@ -28,7 +28,7 @@ git push --set-upstream origin new_branch   # Push the new branch, set local bra
 
 #### Delete branch
 
-``php
+```php
 # Branch uploaded to remote
 git branch -d <branch>
 	git push origin --delete <branch>
