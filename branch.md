@@ -1,6 +1,8 @@
-###### Branch
-	- Create 1 branch	
-		git branch <branch-name>
+### Create 1 branch	
+
+```
+	git branch <branch-name>
+```
 
 	- Move HEAD to new branch
 		git checkout <branch-name>

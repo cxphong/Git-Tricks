@@ -28,6 +28,9 @@
 		git tag
 		git log --tags --simplify-by-decoration --pretty="format:%ci %d"
 
+	- Find commit file added
+		git log --diff-filter=A -- <file-name>
+
 
 ###### Make alias to type less
 		Edit file ~/.gitconfig

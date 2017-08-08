@@ -7,7 +7,7 @@
 
 	- Ignore a part of modified file
 
-	- Add mofified into stage
+	- Add all mofified into stage
 		git add -A
 
 	- Get back deleted file
