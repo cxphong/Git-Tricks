@@ -31,10 +31,10 @@ git push --set-upstream origin new_branch   # Push the new branch, set local bra
 ```php
 # Branch uploaded to remote
 git branch -d <branch>
-	git push origin --delete <branch>
+git push origin --delete <branch>
 
-	# Branch not uploaded to remote yet
-	git branch -D <branch>
+# Branch not uploaded to remote yet
+git branch -D <branch>
 ```
 #### Checkout remote branch
 
