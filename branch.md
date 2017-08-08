@@ -1,22 +1,22 @@
-#### Create 1 branch	
+##### Create 1 branch	
 
 ```php
 git branch <branch-name>
 ```
 
-#### Move HEAD to new branch
+##### Move HEAD to new branch
 
 ```php
 git checkout <branch-name>
 ```
 
-#### Merge branch into
+##### Merge branch into
 
 ```php
 git merge <name of branch want to merge into current branch>
 ```
 
-#### Change branch name
+##### Change branch name
 
 ```php
 git branch -m old_branch new_branch         # Rename branch locally  
