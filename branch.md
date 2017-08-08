@@ -1,6 +1,6 @@
-### Create 1 branch	
+#### Create 1 branch	
 
-```
+```php
 	git branch <branch-name>
 ```
 
