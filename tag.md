@@ -22,3 +22,10 @@ git tag -d <tag-name>
 git tag <new-name> <old-name>
 git tag -d <old-name>
 ```
+
+
+##### Push tag to remote
+
+```php
+git push origin <tag-name>
+```
