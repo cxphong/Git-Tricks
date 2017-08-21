@@ -1,24 +1,35 @@
-###### Stash & Clean
-	- Ignore all modified (Becareful it can't undo)
-		git checkout .
+##### Ignore all modified (Becareful it can't undo)
 
-	- Ignore 1 modified file
-		git checkout <file-name>
+```php
+git checkout .
+```
 
-<<<<<<< HEAD:stage.md
-	- Ignore a part of modified file
+##### Ignore 1 modified file
+		
+```php
+git checkout <file-name>
+```
 
-	- Add all mofified into stage
-=======
-	- Add mofified into stage
->>>>>>> 0d1f141f0bb5205b37a82e91aec0fa6e021bd233:stash-clean.md
-		git add -A
+##### Add mofified into stage
 
-	- Get back deleted file
-		git checkout <file-name>
+```php
+git add -A
+```
 
-	- Unstage all
-		git reset HEAD .
+##### Get back deleted file
 
-	- Unstage 1 file
-		git reset HEAD <file-name>
+```php
+git checkout <file-name>
+```
+
+##### Unstage all
+
+```php
+git reset HEAD .
+```
+
+##### Unstage 1 file
+
+```php
+git reset HEAD <file-name>
+```
