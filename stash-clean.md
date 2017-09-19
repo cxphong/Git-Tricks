@@ -19,6 +19,7 @@ git add -A
 ##### Get back deleted file
 
 ```php
+git reset HEAD <file-name>
 git checkout <file-name>
 ```
 
