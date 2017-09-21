@@ -1,13 +1,9 @@
-###### Checkout
-	- Go to commit with tag
-		git checkout tags/<tag-name>
+##### Merge commits from another repo
 
-	- Go go commit
-		git checkout <commit-hash>
-
-	- View content of a old file from commit
-
-
-	- Get file from a old commit to current 
-
-	- 
+```php
+git remote add remote1 <remote-url>
+git fetch remote1
+git checkout <working-branch>
+git merge remote1
+git remote rm remote1
+```
