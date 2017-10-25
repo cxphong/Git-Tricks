@@ -1,5 +1,4 @@
 ##### Edit History
-  ```swift
   - **Merge commits from another repo**
     git remote add remote1 <remote-url>
     git fetch remote1
@@ -10,4 +9,3 @@
   - **Rename folder**
     git mv <old-name> tmp
     git mv tmp <new-name>
-  ```
