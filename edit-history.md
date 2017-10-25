@@ -1,5 +1,5 @@
-##### Merge commits from another repo
-
+##### 
+1. Merge commits from another repo
 ```swift
 git remote add remote1 <remote-url>
 git fetch remote1
@@ -7,8 +7,7 @@ git checkout <working-branch>
 git merge remote1
 git remote rm remote1
 ```
-
-#### Rename folder
+2. Rename folder
 ```swift
 git mv <old-name> tmp
 git mv tmp <new-name>
