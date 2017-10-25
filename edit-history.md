@@ -1,4 +1,4 @@
-1. Merge commits from another repo
+1. *Merge commits from another repo*
     
       ```python
       git remote add remote1 <remote-url>
@@ -8,7 +8,7 @@
       git remote rm remote1
       ```
     
-  2. Rename folder
+  2. *Rename folder*
   
       ```python
       git mv <old-name> tmp
