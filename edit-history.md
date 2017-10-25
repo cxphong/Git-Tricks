@@ -1,6 +1,6 @@
 ##### Merge commits from another repo
 
-```R
+```Ruby
 git remote add remote1 <remote-url>
 git fetch remote1
 git checkout <working-branch>
