@@ -1,7 +1,6 @@
-##### Edit History
-  1. Merge commits from another repo
+1. Merge commits from another repo
     
-      ```javascript
+      ```python
       git remote add remote1 <remote-url>
       git fetch remote1
       git checkout <working-branch>
@@ -11,7 +10,7 @@
     
   2. Rename folder
   
-      ```javascript
+      ```python
       git mv <old-name> tmp
       git mv tmp <new-name>
       ```
