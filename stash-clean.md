@@ -34,3 +34,12 @@ git reset HEAD .
 ```php
 git reset HEAD <file-name>
 ```
+
+#### Edit .gitignore
+```swift
+- commit all change
+- edit .gitignore
+- git rm -r --cached .
+- git add .
+- git commit -m ".gitignore is now working"
+```
