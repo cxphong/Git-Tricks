@@ -1,12 +1,12 @@
-##### Create 1 branch	
+1. *Create 1 branch*	
 
-```php
+```bash
 git branch <branch-name>
 ```
 
-##### Move HEAD to new branch
+2. *Move HEAD to new branch*
 
-```php
+```bash
 git checkout <branch-name>
 ```
 
