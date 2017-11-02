@@ -1,6 +1,6 @@
 1. *Merge commits from another repo*
     
-      ```python
+      ```bash
       git remote add remote1 <remote-url>
       git fetch remote1
       git checkout <working-branch>
@@ -10,7 +10,7 @@
     
   2. *Rename folder*
   
-      ```python
+      ```bash
       git mv <old-name> tmp
       git mv tmp <new-name>
       ```
