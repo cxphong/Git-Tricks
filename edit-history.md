@@ -14,3 +14,9 @@
       git mv <old-name> tmp
       git mv tmp <new-name>
       ```
+      
+  3. *Delete last commit*
+  
+      ```python
+      git reset --hard HEAD~1
+      ```
