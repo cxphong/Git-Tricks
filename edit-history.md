@@ -17,6 +17,6 @@
       
   3. *Delete last commit*
   
-      ```python
+      ```bash
       git reset --hard HEAD~1
       ```
