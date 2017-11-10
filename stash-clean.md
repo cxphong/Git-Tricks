@@ -4,6 +4,14 @@
 git checkout .
 ```
 
+#### Remove file not git
+```bash
+git clean -f -d
+
+# Remove ignore files
+git clean -f -d -x
+```
+
 ##### Ignore 1 modified file
 		
 ```php
