@@ -20,3 +20,9 @@
       ```bash
       git reset --hard HEAD~1
       ```
+      
+  3. *Get old version of 1 file*
+
+  ```bash
+  git checkout <commit hash> <path>
+  ```
