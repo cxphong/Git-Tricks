@@ -30,8 +30,6 @@
   5. *Change message of pushed commit*
 
       ```bash 
-      
       git rebase -i HEAD~<number backwork commit>
-      # Select r to commit want to rename -> save -> Edit message
-      
+      Select r to commit want to rename -> save -> Edit message
       ```
