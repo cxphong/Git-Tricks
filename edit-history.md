@@ -28,8 +28,8 @@
       ```
       
   5. *Change message of pushed commit*
-
-      ```bash 
-      git rebase -i HEAD~3
-      Select r to commit want to rename -> save -> Edit message
-      ```
+  
+   		```bash
+       git rebase -i HEAD~<number of backward commit>
+       # Select r at commit want to change message -> save -> edit message -> save -> push force
+    	```
