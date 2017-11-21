@@ -21,8 +21,15 @@
       git reset --hard HEAD~1
       ```
       
-  3. *Get old version of 1 file*
+  4. *Get old version of 1 file*
 
-  ```bash
-  git checkout <commit hash> <path>
-  ```
+      ```bash
+      git checkout <commit hash> <path>
+      ```
+      
+  5. *Change message of pushed commit*
+
+      ```bash
+      git rebase -i HEAD~<number backwork commit>
+      # Select r to commit want to rename -> save -> Edit message
+      ```
