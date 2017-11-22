@@ -1,12 +1,12 @@
 ##### Create 1 tag at current commit	
 
-```php
+```bash
 git tag <tag-name>
 ```
 
 ##### Create 1 tag at old commit
 
-```php
+```bash
 git tag -a <tag-name> <commit-hash>
 ```
 
@@ -18,7 +18,7 @@ git tag -d <tag-name>
 
 ##### Rename tag
 
-```php
+```bash
 git tag <new-name> <old-name>
 git tag -d <old-name>
 ```
@@ -26,6 +26,16 @@ git tag -d <old-name>
 
 ##### Push tag to remote
 
-```php
+```bash
 git push origin <tag-name>
+```
+
+##### Pull tag
+
+```bash
+# all tags
+git pull origin
+
+# sepecify tag
+git pull origin <tag-name>
 ```
