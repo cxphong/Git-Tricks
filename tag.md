@@ -12,7 +12,7 @@ git tag -a <tag-name> <commit-hash>
 
 ##### Delete tag
 
-```php
+```bash
 git tag -d <tag-name>
 ```
 
