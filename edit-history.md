@@ -33,3 +33,10 @@
        git rebase -i HEAD~<number of backward commit>
        # Select r at commit want to change message -> save -> edit message -> save -> push force
     	```
+    
+5. *Revert commit*
+
+    ```bash
+    git revert <commit-hash>
+    # Create new commit with the inverse of the commit
+    ```
