@@ -30,6 +30,9 @@
 
 	- Find commit file added
 		git log --diff-filter=A -- <file-name>
+	
+	- View number line of codes of an author
+		git log --author="Cao Xuan Phong" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' 
 
 
 ###### Make alias to type less
