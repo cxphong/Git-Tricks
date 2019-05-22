@@ -33,6 +33,9 @@ git push --set-upstream origin new_branch   # Push the new branch, set local bra
 git branch -d <branch>
 git push origin --delete <branch>
 
+# Update local repo to remove deleleted remote branch
+git fetch -p
+
 # Branch not uploaded to remote yet
 git branch -D <branch>
 ```
