@@ -34,9 +34,14 @@
        # Select r at commit want to change message -> save -> edit message -> save -> push force
     	```
     
-5. *Revert commit*
+  6. *Revert commit*
 
-    ```bash
-    git revert <commit-hash>
-    # Create new commit with the inverse of the commit
-    ```
+        ```bash
+        git revert <commit-hash>
+        # Create new commit with the inverse of the commit
+        ```
+  7. *Merge commits into one*
+  
+   		```bash
+       https://www.internalpointers.com/post/squash-commits-into-one-git
+    	```
